@@ -1,0 +1,23 @@
+header {
+    padding: 10px;
+    background-color: #9dffd1;
+    text-align: center;}
+
+main {
+    padding: 20px;
+    background-color: #da4848;
+    }
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: trebuchet ms, sans-serif;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: trebuchet ms, sans-serif;
+}
