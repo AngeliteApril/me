@@ -20,6 +20,8 @@ footer {
 
 h1 {
     font-family: trebuchet ms, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 a {
@@ -32,4 +34,11 @@ a:hover {
     color: #000000;
     background-color: #9dffd1;
     border-radius: 5px;
+}
+
+nav {
+    background-color: #eb3bb1;
+    float: left;
+    height: 700px;
+    width: 42%;
 }
