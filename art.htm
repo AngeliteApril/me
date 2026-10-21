@@ -7,10 +7,21 @@
     <title>My Skills</title>
 </head>
 <body>
-    <header>
-        <h1 style="text-align: left; float: left; padding-left: 65px"><a href="index.html">About me</a></h1>
-        <h1 style="text-align: right; padding-right: 65px"><a href="skills.html">Skills</a> <a href="policies.html">Policies</a> <a href="faq.html">FaQ</a> <a href="contact.html">Contact</a></h1></h1>
-    </header>
+<header>
+    <h1 style="text-align: left; float: left; padding-left: 65px"><a href="index.html">About me</a></h1>
+    <h1 style="text-align: right; padding-right: 65px">
+        <ul></ul>
+        <span onmouseenter="this.querySelector('span').style.display='block'" onmouseleave="this.querySelector('span').style.display='none'" style="position: relative; display: inline-block;">
+            <a href="skills.html">Skills</a>
+            <span style="display: none; position: absolute; right: 0; background: white; min-width: 140px; border: 1px solid #ccc;">
+                <a href="academics.htm" style="display: block; padding: 5px 10px; text-align: right;">Academics</a>
+                <a href="art.htm" style="display: block; padding: 5px 10px; text-align: right;">Art</a>
+                <a href="photoshop.htm" style="display: block; padding: 5px 10px; text-align: right;">Photoshop</a>
+            </span>
+        </span>
+        <a href="why-me.html">Why me?</a> <a href="faq.html">FaQ</a> <a href="contact.html">Contact</a>
+    </h1>
+</header>
 <main>
         <h1 style="font-size: 65px; text-align: center; padding-top: 1%; ">My Skills</h1>
         <p style="font-size: 35px; text-align: center; padding-top: 2%; padding-left:25%; padding-right: 25%;">These are a few of my art projects that I have done in the past. I really enjoy being creative and doing my best to make my ideas come to life.</p>
@@ -25,7 +36,6 @@
         <h3><a href="photoshop.htm">Photoshop</a></h3> 
         <h3><a href="academics.htm">Academics</a></h3> 
     </div>
-    
 </main>
     <footer>
         <p>&copy; 2026 April Niernberg. All rights reserved. Made by human hands</p>

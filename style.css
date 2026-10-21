@@ -45,3 +45,9 @@ nav {
     width: 42%;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding: 150px;
+}
