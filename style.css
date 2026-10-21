@@ -21,3 +21,15 @@ footer {
 h1 {
     font-family: trebuchet ms, sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #4d8515;
+    padding: 11px;
+}
+
+a:hover {
+    color: #000000;
+    background-color: #9dffd1;
+    border-radius: 5px;
+}
