@@ -9,46 +9,46 @@
 </head>
 <body>
 <header>
-    <h1 style="text-align: left; float: left; padding-left: 65px"><a href="index.html">About me</a></h1>
-    <h1 style="text-align: right; padding-right: 65px">
+    <h1 style="white-space: nowrap;"><a href="index.html">About me</a></h1>
+    <h1 style="white-space: nowrap;">
         <ul></ul>
-        <span onmouseenter="this.querySelector('span').style.display='block'" onmouseleave="this.querySelector('span').style.display='none'" style="position: relative; display: inline-block;">
+        <span onmouseenter="this.querySelector('span').style.display='block'" onmouseleave="this.querySelector('span').style.display='none'">
             <a href="skills.html">Skills</a>
-            <span style="display: none; position: absolute; right: 0; background: white; min-width: 140px; border: 1px solid #ccc;">
-                <a href="academics.htm" style="display: block; padding: 5px 10px; text-align: right;">Academics</a>
-                <a href="art.htm" style="display: block; padding: 5px 10px; text-align: right;">Art</a>
-                <a href="photoshop.htm" style="display: block; padding: 5px 10px; text-align: right;">Photoshop</a>
+            <span>
+                <a href="academics.htm">Academics</a>
+                <a href="art.htm">Art</a>
+                <a href="photoshop.htm">Photoshop</a>
             </span>
         </span>
         <a href="why-me.html">Why me?</a> <a href="faq.html">FaQ</a> <a href="contact.html">Contact</a>
     </h1>
 </header>
-<main>
-        <h1 style="font-size: 65px; text-align: center; padding-top: 1%; ">My Skills</h1>
-        <p style="font-size: 35px; text-align: center; padding-top: 2%; padding-left:25%; padding-right: 25%;">I am a big fan of a Pokemon format that requires a logo, and I always offer to make logos for my friends! Here are a few of those logos as an example of what I can do with Photoshop!</p>
+<main style="width: 90%; margin: 3% auto; padding: 4%; border: thin solid #E8DDEA; border-radius: 1%; background-color: #FFFFFF">
+        <h1 style="text-align: center">My Skills</h1>
+        <p style="text-align: center">I am a big fan of a Pokemon format that requires a logo, and I always offer to make logos for my friends! Here are a few of those logos as an example of what I can do with Photoshop!</p>
 </p>
     <br>
-        <div class="art" style="display: flex; justify-content: space-between;"> 
-        <figure>
-            <img src="pics/Lily-Lilts-Logo.png" style="width: 15%; height: auto; border-radius: 10px;" alt=image>
-            <figcaption>This is my most recent logo, I enjoy making simple icons that can bring out exactly what the owner wants.</figcaption>
+        <div class="art" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); gap: 3%; margin: 3% 0">
+        <figure style="min-width: 0; margin: 0; padding: 3%; border: thin solid #D9C8F0; border-radius: 2%; background: linear-gradient(145deg, #FDF8FC, #F4F8FD 55%, #F6FBF9)">
+            <img src="pics/Lily-Lilts-Logo.png" style="display: block; width: 100%; max-width: 100%; height: auto; border: thin solid #D9C8F0; border-radius: 2%" alt=image>
+            <figcaption style="margin-top: 3%; padding: 3%; border-radius: 2%; background-color: #FFFFFFB8; color: #574E64; font-size: 90%">This is my most recent logo, I enjoy making simple icons that can bring out exactly what the owner wants.</figcaption>
         </figure>
-        <figure>
-            <img src="pics/Riverside_Otters.png" style="width: 15%; height: auto; border-radius: 10px;" alt=image>
-            <figcaption>This is likely the most graphicly advanced logo I have done, but I have recently pivoted away from this style because I enjoy simplicity in logos</figcaption>
+        <figure style="min-width: 0; margin: 0; padding: 3%; border: thin solid #D9C8F0; border-radius: 2%; background: linear-gradient(145deg, #FFF3B080, #F8C8DC66, #FFFFFF)">
+            <img src="pics/Riverside_Otters.png" style="display: block; width: 100%; max-width: 100%; height: auto; border: thin solid #D9C8F0; border-radius: 2%" alt=image>
+            <figcaption style="margin-top: 3%; padding: 3%; border-radius: 2%; background-color: #FFFFFFB8; color: #574E64; font-size: 90%">This is likely the most graphically advanced logo I have done, but I have recently pivoted away from this style because I enjoy simplicity in logos</figcaption>
         </figure>
-        <figure>
-            <img src="pics/Vanillite-Logo.png" style="width: 20%; height: auto;" alt=image>
-            <figcaption>This was my first logo that I completed. There are a few flaws but a great example for how far I've come since then!</figcaption>
+        <figure style="min-width: 0; margin: 0; padding: 3%; border: thin solid #D9C8F0; border-radius: 2%; background: linear-gradient(145deg, #B8E6E080, #BCD4F066, #FFFFFF)">
+            <img src="pics/Vanillite-Logo.png" style="display: block; width: 100%; max-width: 100%; height: auto; border: thin solid #D9C8F0; border-radius: 2%" alt=image>
+            <figcaption style="margin-top: 3%; padding: 3%; border-radius: 2%; background-color: #FFFFFFB8; color: #574E64; font-size: 90%">This was my first logo that I completed. There are a few flaws but a great example for how far I've come since then!</figcaption>
         </figure>
     </div>
-    <div style="font-size: 40px; display: flex; justify-content: space-between; align-items: center;"> 
+    <div style="font-size: 150%; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 3%; margin-top: 3%; border-top: thin solid #E8DDEA; padding: 3%">
         <h3><a href="art.htm">Art</a></h3> 
         <h3><a href="photoshop.htm">Photoshop</a></h3> 
         <h3><a href="academics.htm">Academics</a></h3> 
     </div>
 </main>
-    <footer>
+    <footer style="padding: 3%; color: #665D70; text-align: center">
         <p>&copy; 2026 April Niernberg. All rights reserved. Made by human hands</p>
     </footer>
 </body>

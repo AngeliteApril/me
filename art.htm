@@ -9,45 +9,45 @@
 </head>
 <body>
 <header>
-    <h1 style="text-align: left; float: left; padding-left: 65px"><a href="index.html">About me</a></h1>
-    <h1 style="text-align: right; padding-right: 65px">
+    <h1 style="white-space: nowrap;"><a href="index.html">About me</a></h1>
+    <h1 style="white-space: nowrap;">
         <ul></ul>
-        <span onmouseenter="this.querySelector('span').style.display='block'" onmouseleave="this.querySelector('span').style.display='none'" style="position: relative; display: inline-block;">
+        <span onmouseenter="this.querySelector('span').style.display='block'" onmouseleave="this.querySelector('span').style.display='none'">
             <a href="skills.html">Skills</a>
-            <span style="display: none; position: absolute; right: 0; background: white; min-width: 140px; border: 1px solid #ccc;">
-                <a href="academics.htm" style="display: block; padding: 5px 10px; text-align: right;">Academics</a>
-                <a href="art.htm" style="display: block; padding: 5px 10px; text-align: right;">Art</a>
-                <a href="photoshop.htm" style="display: block; padding: 5px 10px; text-align: right;">Photoshop</a>
+            <span>
+                <a href="academics.htm">Academics</a>
+                <a href="art.htm">Art</a>
+                <a href="photoshop.htm">Photoshop</a>
             </span>
         </span>
         <a href="why-me.html">Why me?</a> <a href="faq.html">FaQ</a> <a href="contact.html">Contact</a>
     </h1>
 </header>
-<main>
-        <h1 style="font-size: 65px; text-align: center; padding-top: 1%; ">My Art</h1>
-        <p style="font-size: 35px; text-align: center; padding-top: 2%; padding-left:25%; padding-right: 25%;">These are a few of my art projects that I have done in the past. I really enjoy being creative and doing my best to make my ideas come to life. I mostly specialize in pixel art; however, I can do traditional digital art as well.</p>
+<main style="width: 90%; margin: 3% auto; padding: 4%; border: thin solid #E8DDEA; border-radius: 1%; background-color: #FFFFFF">
+        <h1 style="text-align: center">My Art</h1>
+        <p style="text-align: center">These are a few of my art projects that I have done in the past. I really enjoy being creative and doing my best to make my ideas come to life. I mostly specialize in pixel art; however, I can do traditional digital art as well.</p>
     <br>
-        <div class="art" style="display: flex; justify-content: space-between;"> 
-        <figure>
-            <img src="pics/mimikyu-art.png" style="width: 10%; height: auto; border-radius: 10px;" alt=image>
-            <figcaption>I primarally draw in the pixel art style. This was a drawing that I got commitioned to make for card sleeves.</figcaption>
+        <div class="art" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); gap: 3%; margin: 3% 0">
+        <figure style="min-width: 0; margin: 0; padding: 3%; border: thin solid #D9C8F0; border-radius: 2%; background: linear-gradient(145deg, #FDF8FC, #F4F8FD 55%, #F6FBF9)">
+            <img src="pics/mimikyu-art.png" style="display: block; width: 100%; max-width: 100%; height: auto; border: thin solid #D9C8F0; border-radius: 2%" alt=image>
+            <figcaption style="margin-top: 3%; padding: 3%; border-radius: 2%; background-color: #FFFFFFB8; color: #574E64; font-size: 90%">I primarily draw in the pixel art style. This was a drawing that I got commissioned to make for card sleeves.</figcaption>
         </figure>
-        <figure>
-            <img src="pics/Drawing-art.png" style="width: 10%; height: auto; border-radius: 10px;" alt=image>
-            <figcaption>Aside from pixel art, I also enjoy doing standerd art digitally! I am not quite as good at this style than I am for pixel art, but I'm trying my best to learn.</figcaption>
+        <figure style="min-width: 0; margin: 0; padding: 3%; border: thin solid #D9C8F0; border-radius: 2%; background: linear-gradient(145deg, #FFF3B080, #F8C8DC66, #FFFFFF)">
+            <img src="pics/Drawing-art.png" style="display: block; width: 100%; max-width: 100%; height: auto; border: thin solid #D9C8F0; border-radius: 2%" alt=image>
+            <figcaption style="margin-top: 3%; padding: 3%; border-radius: 2%; background-color: #FFFFFFB8; color: #574E64; font-size: 90%">Aside from pixel art, I also enjoy doing standard art digitally! I am not quite as good at this style than I am for pixel art, but I'm trying my best to learn.</figcaption>
         </figure>
-        <figure>
-            <img src="pics/sylvon-art.png" style="width: 18.5%; height: auto; border-radius: 10px;" alt=image>
-            <figcaption>This drawing I was also commitioned to to, it was ment to be a 2 frame animation but after I did the first frame they changed their mind.</figcaption>
+        <figure style="min-width: 0; margin: 0; padding: 3%; border: thin solid #D9C8F0; border-radius: 2%; background: linear-gradient(145deg, #B8E6E080, #BCD4F066, #FFFFFF)">
+            <img src="pics/sylvon-art.png" style="display: block; width: 100%; max-width: 100%; height: auto; border: thin solid #D9C8F0; border-radius: 2%" alt=image>
+            <figcaption style="margin-top: 3%; padding: 3%; border-radius: 2%; background-color: #FFFFFFB8; color: #574E64; font-size: 90%">This drawing I was also commissioned to, it was meant to be a 2 frame animation but after I did the first frame they changed their mind.</figcaption>
         </figure>
     </div>
-    <div style="font-size: 40px; display: flex; justify-content: space-between; align-items: center;"> 
+    <div style="font-size: 150%; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 3%; margin-top: 3%; border-top: thin solid #E8DDEA; padding: 3%">
         <h3><a href="art.htm">Art</a></h3> 
         <h3><a href="photoshop.htm">Photoshop</a></h3> 
         <h3><a href="academics.htm">Academics</a></h3> 
     </div>
 </main>
-    <footer>
+    <footer style="padding: 3%; color: #665D70; text-align: center">
         <p>&copy; 2026 April Niernberg. All rights reserved. Made by human hands</p>
     </footer>
 </body>

@@ -9,45 +9,45 @@
 </head>
 <body>
 <header>
-    <h1 style="text-align: left; float: left; padding-left: 65px"><a href="index.html">About me</a></h1>
-    <h1 style="text-align: right; padding-right: 65px">
+    <h1 style="white-space: nowrap;"><a href="index.html">About me</a></h1>
+    <h1 style="white-space: nowrap;">
         <ul></ul>
-        <span onmouseenter="this.querySelector('span').style.display='block'" onmouseleave="this.querySelector('span').style.display='none'" style="position: relative; display: inline-block;">
+        <span onmouseenter="this.querySelector('span').style.display='block'" onmouseleave="this.querySelector('span').style.display='none'">
             <a href="skills.html">Skills</a>
-            <span style="display: none; position: absolute; right: 0; background: white; min-width: 140px; border: 1px solid #ccc;">
-                <a href="academics.htm" style="display: block; padding: 5px 10px; text-align: right;">Academics</a>
-                <a href="art.htm" style="display: block; padding: 5px 10px; text-align: right;">Art</a>
-                <a href="photoshop.htm" style="display: block; padding: 5px 10px; text-align: right;">Photoshop</a>
+            <span>
+                <a href="academics.htm">Academics</a>
+                <a href="art.htm">Art</a>
+                <a href="photoshop.htm">Photoshop</a>
             </span>
         </span>
         <a href="why-me.html">Why me?</a> <a href="faq.html">FaQ</a> <a href="contact.html">Contact</a>
     </h1>
 </header>
-<main style="width: auto; height: 700px">
-<form
+<main style="width: 90%; margin: 3% auto; padding: 4%; border: thin solid #E8DDEA; border-radius: 1%; background-color: #FFFFFF">
+<form style="display: grid; gap: 3%; width: 100%; margin: 0 auto; padding: 5%; border: thin solid #D9C8F0; border-radius: 2%; background: linear-gradient(135deg, #FDF8FC, #F4F8FD, #F6FBF9)"
   action="https://formspree.io/f/xyekrnbd"
   method="POST">
 
-  <label>
+  <label style="display: grid; gap: 2%; font-weight: 600">
     Email:
-    <input type="email" name="email">
+    <input type="email" name="email" style="width: 100%; padding: 4%; border: thin solid #CFC3D1; border-radius: 1%; background-color: #FFFFFF; color: #4A3F5C; font: inherit">
   </label>
-  <label>
+  <label style="display: grid; gap: 2%; font-weight: 600">
     Business Name:
-    <textarea type="message" name="Business"></textarea>
+    <textarea type="message" name="Business" style="width: 100%; padding: 6%; border: thin solid #CFC3D1; border-radius: 1%; background-color: #FFFFFF; color: #4A3F5C; font: inherit; resize: vertical"></textarea>
   </label>
-    <label>
+    <label style="display: grid; gap: 2%; font-weight: 600">
     Phone Number:
-    <input type="message" name="Phone Number">
+    <input type="message" name="Phone Number" style="width: 100%; padding: 4%; border: thin solid #CFC3D1; border-radius: 1%; background-color: #FFFFFF; color: #4A3F5C; font: inherit">
   </label>
-    <label>
+    <label style="display: grid; gap: 2%; font-weight: 600">
     Message:
-    <textarea name="message"></textarea>
+    <textarea name="message" style="width: 100%; padding: 6%; border: thin solid #CFC3D1; border-radius: 1%; background-color: #FFFFFF; color: #4A3F5C; font: inherit; resize: vertical"></textarea>
   </label>
-  <button type="submit">Submit</button>
+  <button type="submit" style="padding: 3% 6%; border: 0; border-radius: 1%; background-color: #B94F73; color: #FFFFFF; font: inherit; font-weight: 700; cursor: pointer">Submit</button>
 </form>
 </main>
-    <footer>
+    <footer style="padding: 3%; color: #665D70; text-align: center">
         <p>&copy; 2026 April Niernberg. All rights reserved. Made by human hands</p>
     </footer>
 </body>
